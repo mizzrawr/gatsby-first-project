@@ -21,6 +21,7 @@ module.exports = {
         accessToken:process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
+    require('dotenv').config(),
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
