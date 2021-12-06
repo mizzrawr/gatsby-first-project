@@ -1,0 +1,38 @@
+.posts {
+   list-style-type: none;
+   margin: 0;
+
+}
+
+.post{
+    margin: 1rem 0;
+    border-radius: 5px;
+
+a{
+    background: pink;
+    color: black;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+a:hover{
+    background: gray;
+    color: pink;
+    width: auto;
+    padding: 10px;
+
+}
+p{
+    color: rebeccapurple;
+    font-size: 0.8;
+    font-style: italic;
+}
+h2{
+    margin-bottom: 0;
+}
+}

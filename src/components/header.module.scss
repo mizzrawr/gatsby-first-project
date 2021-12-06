@@ -1,0 +1,43 @@
+.heading {
+padding: 1rem 0 3rem;
+
+}
+.title{
+color: #000000;
+font-size: 3rem;
+text-decoration: none;
+}
+
+.link {
+color: blue
+}
+.secondLink {
+    color: red
+}
+.navList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+.navItem {
+    color: gray;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.navItem:hover {
+color: black;
+
+}
+
+.activeNavItem{
+    color: pink;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
