@@ -7,9 +7,9 @@ const AboutPage = ()=> {
     return (
         <Layout>
             <Head title='About' />
-            <h1>this is me</h1>
-            <p>I'm a lonely wolf living in your dreams</p>
-            <p>this is a Link to <Link to='/contact'>contact </Link>  </p>
+            <h1>Meiga Café, the best Katzenkaffee in Germany</h1>
+            <p>We are here to save tons of kitties</p>
+            <p>Wanna keep in touch? <Link to='/contact'>contact </Link>  </p>
             <Link to='/'><button>Home</button> </Link>
 
         </Layout>
