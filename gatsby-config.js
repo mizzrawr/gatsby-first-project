@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+ require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata:{
     title: 'Meiga Café',
@@ -21,7 +25,7 @@ module.exports = {
         accessToken:process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
-    require('dotenv').config(),
+    
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
